@@ -18,5 +18,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-echo 'src-git netgear https://github.com/tracemouse/luci-theme-netgear' >>feeds.conf.default
-echo 'src-git neobird https://github.com/thinktip/luci-theme-neobird' >>feeds.conf.default
+git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
+git clone https://github.com/thinktip/luci-theme-neobird package/luci-theme-neobird
+git clone https://github.com/Aslin-Ameng/luci-theme-netgear package/luci-theme-netgear
+git clone https://github.com/tano-systems/luci-theme-tano package/luci-theme-tano
