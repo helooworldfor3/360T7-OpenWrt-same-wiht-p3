@@ -20,4 +20,3 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
 git clone https://github.com/thinktip/luci-theme-neobird package/luci-theme-neobird
-git clone https://github.com/tano-systems/luci-theme-tano package/luci-theme-tano
